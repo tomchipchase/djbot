@@ -1,0 +1,11 @@
+version: "2"
+services:
+  slack:
+    build: slack
+    ports:
+      - "4000:80"
+    volumes:
+      - ./slack:/myapp
+      - slackbundle:/usr/local/bundle
+volumes:
+  slackbundle:
