@@ -4,6 +4,7 @@ services:
     build: slack
     ports:
       - "4000:80"
+    env_file: slack/.env.development
     volumes:
       - ./slack:/myapp
       - slackbundle:/usr/local/bundle
