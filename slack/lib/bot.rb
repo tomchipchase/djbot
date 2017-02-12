@@ -5,3 +5,5 @@ class Bot < SlackRubyBot::Bot
     client.say(text: "pong", channel: data.channel)
   end
 end
+
+require "commands"
