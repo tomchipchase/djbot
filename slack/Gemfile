@@ -4,6 +4,8 @@ gem "rspotify"
 gem "slack-ruby-bot", "~> 0.10.1"
 gem "celluloid-io" # slack bot requires this or faye-websocket
 gem "sonos"
+gem "dry-container"
+gem "dry-auto_inject"
 
 group "test" do
   gem "rspec"
