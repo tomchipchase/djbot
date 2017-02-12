@@ -13,6 +13,12 @@ module Commands
 
     command "add"
 
+    help do
+      title "add"
+      desc "Search for a song on spotify and play it"
+      long_desc "I'm not very clever so I'll just play the first thing I find."
+    end
+
     def call(client, data, match)
       track = search_spotify.(match["expression"]).first
       add_song_to_sonos.(track.id)
