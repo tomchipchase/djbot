@@ -114,7 +114,7 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 2.4)
       wasabi (~> 3.4)
-    slack-ruby-bot (0.9.0)
+    slack-ruby-bot (0.10.1)
       hashie
       slack-ruby-client (>= 0.6.0)
     slack-ruby-client (0.7.9)
@@ -160,7 +160,7 @@ DEPENDENCIES
   rack-test
   rspec
   rspotify
-  slack-ruby-bot (~> 0.9.0)
+  slack-ruby-bot (~> 0.10.1)
   sonos
   vcr
   webmock
